@@ -4,12 +4,12 @@
 *
 * Return: 0 if no errors, returns non zero if there are errors
 */
-int main(void)
+int main()
 {
-printf("Size of a char: %zu byte(s)\n", sizeof(charType));
-printf("Size of an int: %zu byte(s)\n", sizeof(intType));
-printf("Size of an long int: %zu byte(s)\n", sizeof(long intType));
-printf("Size of an long long int: %zu byte(s)\n", sizeof(long long intType));
-printf("Size of an float: %zu byte(s)\n", sizeof(floatType));
+printf("Size of a char: %Id byte(s)\n", sizeof(char));
+printf("Size of an int: %Id byte(s)\n", sizeof(int));
+printf("Size of an long int: %Id byte(s)\n", sizeof(long int));
+printf("Size of an long long int: %Id byte(s)\n", sizeof(long long int));
+printf("Size of an float: %Id byte(s)\n", sizeof(float));
 return (0);
 }
