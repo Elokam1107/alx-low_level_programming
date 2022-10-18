@@ -4,7 +4,7 @@
 *
 * Return: 0 if no errors, returns non zero if there are errors
 */
-int main()
+int main(void)
 {
 printf("Size of a char: %Id byte(s)\n", sizeof(char));
 printf("Size of an int: %Id byte(s)\n", sizeof(int));
